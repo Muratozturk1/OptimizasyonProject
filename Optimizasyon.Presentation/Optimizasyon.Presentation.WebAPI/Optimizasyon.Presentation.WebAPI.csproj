@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Optimizasyon.Core\Optimizasyon.Core.Application\Optimizasyon.Core.Application.csproj" />
+    <ProjectReference Include="..\..\Optimizasyon.Infrastructure\Optimizasyon.Infrastructure.Persistence\Optimizasyon.Infrastructure.Persistence.csproj" />
     <ProjectReference Include="..\..\Optimizasyon.Infrastructure\Optimizasyon.Infrastructure.Services\Optimizasyon.Infrastructure.Services.csproj" />
   </ItemGroup>
 
