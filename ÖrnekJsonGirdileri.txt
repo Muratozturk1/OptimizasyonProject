@@ -1,0 +1,62 @@
+Daha Fazla Tahta ve İşgücü
+{
+  "woodPerTable": 30,
+  "laborPerTable": 5,
+  "woodPerChair": 20,
+  "laborPerChair": 10,
+  "totalWood": 500,
+  "totalLabor": 200,
+  "profitPerTable": 7,
+  "profitPerChair": 9
+}
+
+Daha Az Tahta ve İşgücü
+{
+  "woodPerTable": 25,
+  "laborPerTable": 6,
+  "woodPerChair": 15,
+  "laborPerChair": 8,
+  "totalWood": 150,
+  "totalLabor": 60,
+  "profitPerTable": 5,
+  "profitPerChair": 6
+}
+
+
+Sandalyelere Daha Fazla Kâr Odaklı
+
+{
+  "woodPerTable": 30,
+  "laborPerTable": 5,
+  "woodPerChair": 20,
+  "laborPerChair": 10,
+  "totalWood": 300,
+  "totalLabor": 110,
+  "profitPerTable": 4,
+  "profitPerChair": 10
+}
+
+
+Masalar Öncelikli
+{
+  "woodPerTable": 40,
+  "laborPerTable": 8,
+  "woodPerChair": 20,
+  "laborPerChair": 12,
+  "totalWood": 400,
+  "totalLabor": 150,
+  "profitPerTable": 12,
+  "profitPerChair": 5
+}
+
+Dengeli Kaynak ve Kâr Oranları
+{
+  "woodPerTable": 25,
+  "laborPerTable": 7,
+  "woodPerChair": 20,
+  "laborPerChair": 8,
+  "totalWood": 250,
+  "totalLabor": 100,
+  "profitPerTable": 6,
+  "profitPerChair": 6
+}

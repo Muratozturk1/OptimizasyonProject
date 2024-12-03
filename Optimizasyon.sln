@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optimizasyon.Core", "Optimizasyon.Core", "{EBFFEFD3-043E-4DDB-A749-3F278560822B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizasyon.Core.Application", "Optimizasyon.Core\Optimizasyon.Core.Application\Optimizasyon.Core.Application.csproj", "{3DE5A998-E13C-4EF6-A712-C55C1DC17489}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizasyon.Core.Domain", "Optimizasyon.Core\Optimizasyon.Core.Domain\Optimizasyon.Core.Domain.csproj", "{132CF102-4A72-42EE-9DEB-ACA68AC5F76F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optimizasyon.Infrastructure", "Optimizasyon.Infrastructure", "{72E7DAAA-24FA-4F93-9A24-0EB0C7986E7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizasyon.Infrastructure.Services", "Optimizasyon.Infrastructure\Optimizasyon.Infrastructure.Services\Optimizasyon.Infrastructure.Services.csproj", "{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizasyon.Infrastructure.Persistence", "Optimizasyon.Infrastructure\Optimizasyon.Infrastructure.Persistence\Optimizasyon.Infrastructure.Persistence.csproj", "{F5A4E2E6-369A-475B-A944-715137440030}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optimizasyon.Presentation", "Optimizasyon.Presentation", "{30895443-DF15-4115-A47D-F4AE6C1C0F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Optimizasyon.Presentation.WebAPI", "Optimizasyon.Presentation\Optimizasyon.Presentation.WebAPI\Optimizasyon.Presentation.WebAPI.csproj", "{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DE5A998-E13C-4EF6-A712-C55C1DC17489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DE5A998-E13C-4EF6-A712-C55C1DC17489}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DE5A998-E13C-4EF6-A712-C55C1DC17489}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DE5A998-E13C-4EF6-A712-C55C1DC17489}.Release|Any CPU.Build.0 = Release|Any CPU
+		{132CF102-4A72-42EE-9DEB-ACA68AC5F76F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{132CF102-4A72-42EE-9DEB-ACA68AC5F76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{132CF102-4A72-42EE-9DEB-ACA68AC5F76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{132CF102-4A72-42EE-9DEB-ACA68AC5F76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5A4E2E6-369A-475B-A944-715137440030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5A4E2E6-369A-475B-A944-715137440030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5A4E2E6-369A-475B-A944-715137440030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5A4E2E6-369A-475B-A944-715137440030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DE5A998-E13C-4EF6-A712-C55C1DC17489} = {EBFFEFD3-043E-4DDB-A749-3F278560822B}
+		{132CF102-4A72-42EE-9DEB-ACA68AC5F76F} = {EBFFEFD3-043E-4DDB-A749-3F278560822B}
+		{CDD17940-8F3B-4DC8-A4CC-A65D12F1E133} = {72E7DAAA-24FA-4F93-9A24-0EB0C7986E7F}
+		{F5A4E2E6-369A-475B-A944-715137440030} = {72E7DAAA-24FA-4F93-9A24-0EB0C7986E7F}
+		{E44B74DE-AD0C-4099-B3B6-57FEDB03F4A8} = {30895443-DF15-4115-A47D-F4AE6C1C0F4F}
+	EndGlobalSection
+EndGlobal

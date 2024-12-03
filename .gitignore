@@ -1,0 +1,6 @@
+# .gitignore dosyası içeriği
+obj/
+bin/
+*.log
+*.tmp
+*.user
