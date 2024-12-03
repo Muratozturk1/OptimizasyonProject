@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Optimizasyon.Core\Optimizasyon.Core.Application\Optimizasyon.Core.Application.csproj" />
-    <ProjectReference Include="..\..\Optimizasyon.Core\Optimizasyon.Core.Domain\Optimizasyon.Core.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
